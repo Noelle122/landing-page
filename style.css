@@ -1,13 +1,33 @@
 body{
-
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
 }
 
 .header{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.header-logo{
+    font-weight: 700;
+    margin-left: 150px;
 }
 
 .header-links{
+    display: flex;
+    margin-right: 150px;
+    gap: 16px;
+}
 
+li{
+    display: flex;
+    text-decoration: none;
 }
 
 /*content container may not be necessary*/
