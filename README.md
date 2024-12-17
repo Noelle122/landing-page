@@ -1,1 +1,1 @@
-# landing-page
+12/16/2024, 10:33 PM: In this project, I will show my basic knowledge of HTML, CSS, and Flex.
