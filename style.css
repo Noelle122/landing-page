@@ -15,14 +15,16 @@ body{
 }
 
 .header-logo{
+    font-size: 24px;
     font-weight: 700;
-    margin-left: 150px;
+    margin-left: 12.5%;
 }
 
 .header-links{
     display: flex;
-    margin-right: 150px;
+    margin-right: 12.5%;
     gap: 16px;
+    font-size: 18px;
 }
 
 li{
@@ -36,26 +38,67 @@ li{
     display: flex;
     background-color: #1F2937;
     color: white;
+    padding-bottom: 150px;
 }
 
 .awesomeness-blurb{
-
+    display: flex;
+    margin-left: 12.5%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1;
+    max-width: 520px;
 }
 
 .section1-bold{
-
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 8px;
+    padding-bottom: 0px;
 }
 
 .section1-subtext{
-    
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-right: 16px;
 }
 
 .button1{
-
+    margin-top: 0px;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #3882F6;
+    border-radius: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .image-area{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12.5%;
+    background-color: gray;
+    margin-top: 48px;
+    width: 420px;
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+    max-width: 420px;
+    min-width: 420px;
+}
 
+.grey-box{
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
 }
 
 .section2{
