@@ -72,8 +72,8 @@ li{
     outline: none;
     background-color: #3882F6;
     border-radius: 7px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
     padding-top: 8px;
     padding-bottom: 8px;
 }
@@ -97,24 +97,63 @@ li{
 .grey-box{
     display: flex;
     background-color: gray;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .section2{
-
+    display: flex;
+    flex-direction: column;
+    background-color: white;
 }
 
 .random-info{
+    display: flex;
+    justify-content: center;
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 36px;
+}
 
+.small-image-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
 }
 
 .small-image{
+    width: 120px;
+    height: 120px;
+    min-height: 120px;
+    max-height: 120px;
+    max-width: 120px;
+    min-width: 120px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
 
+.subtext-wrapper{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
 }
 
 .small-image-message{
-
+    width: 128px;
+    color: gray;
+    height: 128px;
+    font-size: 12px;
+    min-height: 128px;
+    max-height: 128px;
+    max-width: 128px;
+    min-width: 128px;
+    text-align: center;
+    margin-top: 0px;
 }
 
 .section3{
