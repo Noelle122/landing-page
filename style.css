@@ -33,11 +33,21 @@ li{
 /*content container may not be necessary*/
 
 .section1{ 
-
+    display: flex;
+    background-color: #1F2937;
+    color: white;
 }
 
 .awesomeness-blurb{
 
+}
+
+.section1-bold{
+
+}
+
+.section1-subtext{
+    
 }
 
 .button1{
